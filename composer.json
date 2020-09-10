@@ -19,6 +19,13 @@
     "require": {
         "ramsey/uuid": "^4"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "nikusia\\LaravelPostmanExport\\PostmanServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "nikusia\\LaravelPostmanExport\\": "src/"
