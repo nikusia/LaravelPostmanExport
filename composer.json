@@ -1,5 +1,5 @@
 {
-    "name": "udartsev/laravel-postman-export",
+    "name": "nikusia/laravel-postman-export",
     "type": "library",
     "description": "Export your Laravel routes to a Postman collection .json file",
     "keywords": ["laravel","export","postman","collection"],
@@ -17,11 +17,11 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "ramsey/uuid": "^3"
+        "ramsey/uuid": "^4"
     },
     "autoload": {
         "psr-4": {
-            "udartsev\\LaravelPostmanExport\\": "src/"
+            "nikusia\\LaravelPostmanExport\\": "src/"
         }
     }
 
